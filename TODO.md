@@ -2,7 +2,7 @@
 - [x] Identify issue: Workflow deploys to gh-pages, but Pages serves from main branch root
 - [x] Modify .github/workflows/deploy.yml to deploy to docs/ on main branch
 - [x] Add docs/ to .gitignore to avoid tracking built files
-- [ ] Commit and push the changes to trigger deployment
+- [x] Commit and push the changes to trigger deployment
 - [ ] In GitHub repository settings, set Pages source to "Deploy from a branch", select main branch, and /docs folder
 - [ ] Wait for GitHub Pages to deploy the site
 - [ ] Test the live site to ensure no 404
