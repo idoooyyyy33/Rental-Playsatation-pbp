@@ -1,7 +1,8 @@
-# TODO: Build Flutter App for Web
-
-- [x] Enable Flutter web support using `flutter config --enable-web`
-- [x] Run `flutter build web` to generate the `build/web` folder with JavaScript files
-- [x] Verify the build output by checking contents of `build/web`
-- [x] Optionally test locally with `flutter run -d web` (skipped as per user)
-- [x] Prepare for GitHub upload (e.g., commit `build/web` contents if desired)
+- [x] Analyze the 404 error on GitHub Pages for Flutter web app
+- [x] Identify issue: Workflow deploys to gh-pages, but Pages serves from main branch root
+- [x] Modify .github/workflows/deploy.yml to deploy to docs/ on main branch
+- [x] Add docs/ to .gitignore to avoid tracking built files
+- [ ] Commit and push the changes to trigger deployment
+- [ ] In GitHub repository settings, set Pages source to "Deploy from a branch", select main branch, and /docs folder
+- [ ] Wait for GitHub Pages to deploy the site
+- [ ] Test the live site to ensure no 404
